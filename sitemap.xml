@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://tx-pts-dai.github.io/templates/</loc>
+         <lastmod>2025-01-10</lastmod>
+    </url>
+    <url>
+         <loc>https://tx-pts-dai.github.io/templates/faq/</loc>
+         <lastmod>2025-01-10</lastmod>
+    </url>
+    <url>
+         <loc>https://tx-pts-dai.github.io/templates/getting-started/</loc>
+         <lastmod>2025-01-10</lastmod>
+    </url>
+    <url>
+         <loc>https://tx-pts-dai.github.io/templates/templates_/</loc>
+         <lastmod>2025-01-10</lastmod>
+    </url>
+    <url>
+         <loc>https://tx-pts-dai.github.io/templates/templates_/discovery-app-layer/</loc>
+         <lastmod>2025-01-10</lastmod>
+    </url>
+    <url>
+         <loc>https://tx-pts-dai.github.io/templates/templates_/github-workflows/</loc>
+         <lastmod>2025-01-10</lastmod>
+    </url>
+    <url>
+         <loc>https://tx-pts-dai.github.io/templates/templates_/mkdocs/</loc>
+         <lastmod>2025-01-10</lastmod>
+    </url>
+    <url>
+         <loc>https://tx-pts-dai.github.io/templates/templates_/ness-lambda/</loc>
+         <lastmod>2025-01-10</lastmod>
+    </url>
+</urlset>
