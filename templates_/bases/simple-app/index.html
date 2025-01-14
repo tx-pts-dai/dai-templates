@@ -673,11 +673,11 @@
         <li class="md-nav__item">
   <a href="#usage-instructions" class="md-nav__link">
     <span class="md-ellipsis">
-      Usage Instructions¶
+      Usage Instructions
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Usage Instructions¶">
+    <nav class="md-nav" aria-label="Usage Instructions">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1040,11 +1040,11 @@
         <li class="md-nav__item">
   <a href="#usage-instructions" class="md-nav__link">
     <span class="md-ellipsis">
-      Usage Instructions¶
+      Usage Instructions
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Usage Instructions¶">
+    <nav class="md-nav" aria-label="Usage Instructions">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1106,11 +1106,11 @@
 
 
 <h1 id="simple-app-template">Simple App Template<a class="headerlink" href="#simple-app-template" title="Permanent link">&para;</a></h1>
-<p>This Template contains the code for deploying a simple application to AWS using Terraform and Helm.</p>
+<p>A minimal template for deploying an application to AWS using Terraform and Helm.</p>
 <h2 id="project-structure">Project Structure<a class="headerlink" href="#project-structure" title="Permanent link">&para;</a></h2>
 <p>The project's structure is designed to be clear and maintainable, enabling efficient development and deployment processes.</p>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>My Simple App/
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├── app/          # Application source code (e.g., Python Flask app) (modify as needed)
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├── app/          # Application source code (e.g. Python Flask app) (modify as needed)
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>│   └── ...
 </span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>├── deploy/       # Terraform code for infrastructure deployments
 </span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│   ├── app/      # Helm deployments for the application
@@ -1128,8 +1128,8 @@
 <li>The project uses a single terraform configuration that is shared for all environments.</li>
 <li>It leverages GitHub Actions to automate deployments to different environments.  The <code>deploy/app/</code> directory contains configuration for deploying your application using Helm.</li>
 </ul>
-<h2 id="usage-instructions">Usage Instructions¶<a class="headerlink" href="#usage-instructions" title="Permanent link">&para;</a></h2>
-<p>The preferred way to use the template is through the <a href="https://github.com/DND-IT/tam-cli">tam-cli</a> tool. This tool allows you to easily initialize a new project with the template.</p>
+<h2 id="usage-instructions">Usage Instructions<a class="headerlink" href="#usage-instructions" title="Permanent link">&para;</a></h2>
+<p>The preferred way to use the template is through the <a href="https://github.com/DND-IT/tam-cli">tam-cli</a> tool. This tool allows you to easily initialize a new project with a template.</p>
 <h3 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h3>
 <div class="language-shell highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>pipx<span class="w"> </span>install<span class="w"> </span>git+https://github.com/DND-IT/tam-cli.git
 </span></code></pre></div>
