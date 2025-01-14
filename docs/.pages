@@ -1,0 +1,9 @@
+nav:
+  - Overview:
+      - index.md
+      - getting-started.md
+      - faq.md
+  - templates_
+
+
+sort: title

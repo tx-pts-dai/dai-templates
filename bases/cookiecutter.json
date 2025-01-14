@@ -1,14 +1,14 @@
 {
   "templates": {
-    "simple-app": {
-      "path": "./simple-app",
-      "title": "Simple App",
-      "description": "Cookiecutter template for a simple app (Python)"
-    },
     "sfmc-app": {
       "path": "./sfmc-app",
       "title": "SFMC App",
       "description": "Cookiecutter template for a SFMC app (Node.js)"
+    },
+    "simple-app": {
+      "path": "./simple-app",
+      "title": "Simple App",
+      "description": "Cookiecutter template for a simple app (Python)"
     }
   }
 }

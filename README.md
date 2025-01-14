@@ -1,15 +1,10 @@
 # Templates
 
-Holds templates that can be customized through your favourite template engine (e.g. [Jinja](https://palletsprojects.com/projects/jinja/)).
+A collection of templates to support the development of new and old projects.
 
-For an application you can pick your favourite [base](./bases/), and then add any addons you like.
+## Bases and Addons
 
-These are the rules:
-
-1. Only 1 base must be used.
-1. 0 to infinite addons can be added (afterwards).
-
-That's how you identify if your template is a `base` or an `addon`.
+Bases are the foundation of a project, they are the starting point. Addons are the extra features that can be added to a project.
 
 ## Cookiecutter
 
@@ -33,3 +28,7 @@ mkdocs
 ```
 
 All the variables in the `cookiecutter.json` file are required to be used at least once in the template files otherwise an error will be produced.
+
+## Tamcli
+
+The `tamcli` tool is used to generate projects from the templates. It is a wrapper around the `cookiecutter` tool that adds some additional functionality like providing static input for the cookiecutter variables.

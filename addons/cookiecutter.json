@@ -1,5 +1,10 @@
 {
   "templates": {
+    "discovery-app": {
+      "path": "./discovery-app-layer",
+      "title": "DiscoveryAppLayer",
+      "description": "Discovery App Layer for adapting simple app template to Discovery use case"
+    },
     "flux-cronjob-deployment": {
       "path": "./flux-cronjob-deployment",
       "title": "Flux CronJob Deployment",
@@ -10,6 +15,11 @@
       "title": "Flux Service Deployment",
       "description": "Cookiecutter template for deploying a new SFMC service"
     },
+    "github-workflows": {
+      "path": "./github-workflows",
+      "title": "GithubWorkflows",
+      "description": "Cookiecutter template for github workflows"
+    },
     "mkdocs": {
       "path": "./mkdocs",
       "title": "MKDocs",
@@ -19,16 +29,6 @@
       "path": "./ness-lambda",
       "title": "NessLambda",
       "description": "To deploy a lambda with different trigger option in the Ness account"
-    },
-    "github-workflows": {
-      "path": "./github-workflows",
-      "title": "GithubWorkflows",
-      "description": "Cookiecutter template for github workflows"
-    },
-    "discovery-app": {
-      "path": "./discovery-app-layer",
-      "title": "DiscoveryAppLayer",
-      "description": "Discovery App Layer for adapting simple app template to Discovery use case"
     }
   }
 }

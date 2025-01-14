@@ -1,6 +1,7 @@
 nav:
-  - Overview: index.md
-  - getting-started.md
-  - faq.md
+  - Overview:
+    - index.md
+    - getting-started.md
+    - faq.md
 
 sort: title
